@@ -57,7 +57,9 @@ const TodoListApp = () => {
 											key={idx}
 											className="list-group-item d-flex justify-content-between align-items-center"
 										>
-											{item}
+											<span className="text-break me-2 flex-grow-1">
+												{item}
+											</span>
 											<button
 												className="btn btn-sm btn-danger"
 												onClick={() => handleDelete(idx)}
