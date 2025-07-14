@@ -4,22 +4,13 @@ import {useNavigate} from "react-router-dom";
 const TodoListApp = () => {
 	const handleTodo = () => {
 		setTodos([...todos, todo]);
+		setTodo("");
 	};
 	const handleDelete = (indexToDelete) => {
 		const updatedTodos = todos.filter((_, index) => index !== indexToDelete);
 		setTodos(updatedTodos);
 	};
-	const data = [
-		{
-			value: "Task 1",
-		},
-		{
-			value: "Task 2",
-		},
-		{
-			value: "Task 3",
-		},
-	];
+
 	let [todos, setTodos] = useState([]);
 	let [todo, setTodo] = useState("");
 	let navigate = useNavigate();
@@ -45,6 +36,7 @@ const TodoListApp = () => {
 										className="form-control"
 										placeholder="Add a new task..."
 										id="inputValue"
+										value={todo}
 										onChange={(e) => {
 											setTodo(e.target.value);
 										}}
