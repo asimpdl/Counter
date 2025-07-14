@@ -10,12 +10,6 @@ function Counter() {
 		<>
 			<div className="container d-flex justify-content-center align-items-center vh-100">
 				<div className="card text-center shadow p-4" style={{width: "350px"}}>
-					<button
-						className="customButton text-white px-4 py-2 rounded "
-						onClick={() => navigate(-1)}
-					>
-						Go Back
-					</button>
 					<h2 className="mb-4">Counter App</h2>
 
 					<div className="display-4 fw-bold mb-4" id="count">
@@ -54,6 +48,9 @@ function Counter() {
 							Reset
 						</button>
 					</div>
+					<button className="btn btn-outline-secondary mt-3" onClick={() => navigate(-1)}>
+						Go Back
+					</button>
 				</div>
 			</div>
 		</>

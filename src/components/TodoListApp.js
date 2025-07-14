@@ -22,12 +22,6 @@ const TodoListApp = () => {
 					<div className="row justify-content-center">
 						<div className="col-md-6">
 							<div className="card shadow-sm p-4">
-								<button
-									className="customButton text-white px-4 py-2 rounded "
-									onClick={() => navigate(-1)}
-								>
-									Go Back
-								</button>
 								<h2 className="text-center mb-4">📝 To-Do List</h2>
 								{/* Input Form */}
 								<div className="input-group mb-3">
@@ -75,6 +69,12 @@ const TodoListApp = () => {
 										<button className="btn btn-sm btn-danger">Delete</button>
 									</li>
 								</ul> */}
+								<button
+									className="btn btn-outline-secondary mt-3"
+									onClick={() => navigate(-1)}
+								>
+									Go Back
+								</button>
 							</div>
 						</div>
 					</div>
