@@ -1,0 +1,40 @@
+
+To-Do App Algorithm with useState
+Initialize State:
+
+Create a state variable todos to hold the list of tasks (array).
+
+Create a state variable todo to hold the current input text (string).
+
+Add Task:
+
+When the user types in the input box, update todo state with the current input value.
+
+When the user clicks the "Add" button (or presses Enter):
+
+Check if todo is not empty.
+
+Add the current todo string to the todos array (use spread operator).
+
+Reset the todo state to an empty string.
+
+Display Tasks:
+
+Loop over the todos array using .map().
+
+For each task, render it inside an <li> or any container.
+
+Each task should have a unique key.
+
+Delete Task:
+
+Add a "Delete" button next to each task.
+
+When clicked, remove that task from the todos array.
+
+This can be done by filtering out the task based on its index or unique id.
+
+Update UI:
+
+React automatically re-renders the UI when the state changes (todos or todo).
+

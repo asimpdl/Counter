@@ -1,3 +1,10 @@
 body {
 	background-color: #f8faaa;
 }
+.customButton {
+	background-color: darkolivegreen;
+}
+.customButton:hover {
+	background-color: #2e7d32;
+	cursor: pointer;
+}
