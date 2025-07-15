@@ -9,7 +9,7 @@ function QuizApp() {
 				<div className="row justify-content-center">
 					<div className="col-md-6">
 						<div className="card shadow-sm text-center p-4">
-							<h2 className="mb-3">🚧 Work In Progress</h2>
+							<h2 className="mb-3">Work In Progress</h2>
 							<p className="text-muted">This section is not yet completed.</p>
 							<button
 								className="btn btn-outline-secondary mt-3"

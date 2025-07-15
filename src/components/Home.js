@@ -18,7 +18,7 @@ function Home() {
 
 	return (
 		<div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center p-4">
-			<h1 className="text-4xl font-bold mb-6">🧠 React Mini Projects</h1>
+			<h1 className="text-4xl font-bold mb-6">React Mini Projects</h1>
 			<div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-4xl">
 				{apps.map((app, idx) => (
 					<div key={idx} className="bg-white rounded-2xl shadow-md p-6 text-center">
