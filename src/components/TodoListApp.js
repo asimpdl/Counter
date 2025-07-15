@@ -22,7 +22,7 @@ const TodoListApp = () => {
 					<div className="row justify-content-center">
 						<div className="col-md-6">
 							<div className="card shadow-sm p-4">
-								<h2 className="text-center mb-4">📝 To-Do List</h2>
+								<h2 className="text-center mb-4">To-Do List</h2>
 								{/* Input Form */}
 								<div className="input-group mb-3">
 									<input
